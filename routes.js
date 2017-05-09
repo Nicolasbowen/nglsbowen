@@ -4,6 +4,6 @@ const router = express.Router();
 const home = require('./routes/home');
 
 //首页
-router.get('/',home);
+router.get('/',home.index);
 
 module.exports = router;
